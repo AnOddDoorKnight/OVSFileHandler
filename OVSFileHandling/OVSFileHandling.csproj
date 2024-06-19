@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>OVS.IO</RootNamespace>
+    <Title>OVSFileHandler</Title>
+    <Version>$(VersionPrefix)</Version>
+    <Authors>AnOddDoorKnight</Authors>
+    <Description>Provides classes to interact with file systems with compability with both Unix and Windows systems, while including other small things like environment directories and default zip file handling.</Description>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<None Include="..\LICENSE.txt">
+	  <Pack>True</Pack>
+	  <PackagePath>\</PackagePath>
+	</None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
