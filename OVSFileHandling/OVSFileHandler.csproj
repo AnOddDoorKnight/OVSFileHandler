@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<RootNamespace>OVS.IO</RootNamespace>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Title>OVSFileHandler</Title>
+		<VersionPrefix>1.0.0</VersionPrefix>
+		<Authors>AnOddDoorKnight</Authors>
+		<RepositoryType>git</RepositoryType>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<Description>
+			Provides classes to interact with file systems with compability with both Unix and Windows systems, while including other small things like environment directories and default zip file handling.
+		</Description>
+		<PackageReleaseNotes>
+			Initial Release
+		</PackageReleaseNotes>
+		<PackageReadmeFile>Readme.md</PackageReadmeFile>
+		<OutputType>Library</OutputType>
+		<RepositoryUrl>https://github.com/AnOddDoorKnight/OVSFileHandler</RepositoryUrl>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<PackageTags>IO</PackageTags>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="Readme.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

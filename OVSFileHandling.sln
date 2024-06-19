@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OVSFileHandling", "OVSFileHandling\OVSFileHandling.csproj", "{8ED8075D-449F-4CEC-8658-F95CD4F0EB45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OVSFileHandler", "OVSFileHandling\OVSFileHandler.csproj", "{8ED8075D-449F-4CEC-8658-F95CD4F0EB45}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{07601FE2-5817-4BC5-B184-D52F850DF7BB}"
 EndProject
