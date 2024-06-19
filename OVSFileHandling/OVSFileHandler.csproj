@@ -14,7 +14,7 @@
 			Provides classes to interact with file systems with compability with both Unix and Windows systems, while including other small things like environment directories and default zip file handling.
 		</Description>
 		<PackageReleaseNotes>
-			Initial Release
+			Initial Release, designed for future projects as a standalone package or library
 		</PackageReleaseNotes>
 		<PackageReadmeFile>Readme.md</PackageReadmeFile>
 		<OutputType>Library</OutputType>
