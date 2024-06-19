@@ -208,6 +208,7 @@
 		public void AppendAllLines(string[] lines) => AppendAllText(string.Join("\n", lines));
 		public void AppendAllLines(IEnumerable<string> lines) => AppendAllText(string.Join("\n", lines));
 		#endregion
+		/// <inheritdoc/>
 		public override bool Delete()
 		{
 			if (Exists)
